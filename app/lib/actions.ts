@@ -44,6 +44,7 @@ export async function createInvoice(formData: FormData) {
   revalidatePath('/dashboard/invoices');
 
   // redirect user back to dashboard/invoices after creating invoice. Makes sense
+  // it throws an error
   redirect("/dashboard/invoices")
 }
 
