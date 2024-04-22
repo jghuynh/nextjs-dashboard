@@ -1,3 +1,4 @@
+// a file that serves as a catch-all for unexpected errors; allows you to display fallback UI
 'use client'; // this file must be a Client Component
 
 import { useEffect } from 'react';
