@@ -11,9 +11,9 @@ import { Suspense } from 'react';
 import { fetchInvoicesPages } from '@/app/lib/data';
 import { Metadata } from 'next';
 
-// for metadata
+// for metadata, for the invoice page specifically
 export const metadata: Metadata = {
-  title: 'Invoices | Acme Dashboard',
+  title: 'Invoices',
 };
 
 export default async function Page({
